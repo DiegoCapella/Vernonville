@@ -430,3 +430,60 @@ blockquote::after {
   cursor: pointer;
   transition: 0.5s;
 }
+
+/* Get In Touch */
+#contact h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #555 !important;
+}
+
+#contact h1::after {
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 190px;
+  margin: 10px auto 5px;
+}
+
+#contact {
+  background: #efefef;
+  padding: 20px 0 20px 0;
+  color: #777;
+}
+
+.contact-form {
+  padding: 20px;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+::placeholder {
+  color: #999 !important;
+}
+
+.contact-info{
+  padding: 20px 0 20px 0;
+}
+
+.follow {
+  background: #fff;
+  padding: 10px;
+  margin: 0 auto 15px;
+}
+
+.contact-info .fab {
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.contact-info .fas {
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
