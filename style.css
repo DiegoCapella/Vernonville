@@ -67,3 +67,18 @@
   padding-top: 20px;
   text-align: justify;
 }
+
+/* Progress Bar */
+.skills-bar p {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.progress-bar {
+  border-radius: 16px;
+}
+
+.progress {
+  border-radius: 16px !important;
+  margin-bottom: 20px;
+}
